@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Derivative Calculator</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+Mono&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://unpkg.com/mathjs@9.4.4/lib/browser/math.js"></script>
+    <script
+      type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=AM_HTMLorMML-full"
+    ></script>
+    <script src="https://cdn.plot.ly/plotly-2.3.0.min.js"></script>
+  </head>
+
+  <body>
+    <div id="wrapper">
+      <header>
+        <h1>
+          <a href="index.html" id="h1-link">Derivative Calculator</a>
+        </h1>
+      </header>
+      <br /><br />
+      <form id="form">
+        <label for="expression">y =</label>
+        &nbsp;
+        <input
+          type="text"
+          id="expression"
+          placeholder="Enter an expression..."
+        />
+        &nbsp;
+        <input type="submit" value="Go!" />
+      </form>
+      <br /><br />
+      <div>
+        <h4>Derivative:</h4>
+        <br />
+        <div id="derivative"></div>
+        <br />
+        <hr />
+        <h4>Plot:</h4>
+        <br />
+        <div id="plot"></div>
+        <br />
+      </div>
+    </div>
+    <footer>
+      <ul>
+        <h2>GROUP</h2>
+        <li>Kurt Ivan Quejada</li>
+        <li>Exzur Lat</li>
+        <li>Jan Renan Leovido</li>
+        <li>Princess Joy Lumbre</li>
+        <li>Hazlyn Pantoha</li>
+        <li>Lady Hennesy Rescober</li>
+      </ul>
+    </footer>
+    <script type="text/javascript" src="js/script.js"></script>
+  </body>
+</html>
